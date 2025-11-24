@@ -13,7 +13,7 @@ echo ""
 echo "Scan des ports sur $IP ..."
 echo ""
 
-# Liste des ports courants :
+
 ports=(22 80 443 21 25 53 110 139 445 3306 8080)
 
 for port in "${ports[@]}"
